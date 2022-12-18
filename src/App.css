@@ -1,0 +1,42 @@
+.App {
+	text-align: center;
+}
+
+.loginCard {
+	padding: 20px 10px;
+	border-radius: 15px;
+	border: none;
+	box-shadow: 0px 10px 10px rgba(77, 30, 164, 0.1);
+}
+
+.themeButton {
+	background-image: linear-gradient(
+		to right,
+		#1d2b64 0%,
+		#f8cdda 51%,
+		#1d2b64 100%
+	);
+}
+.themeButton {
+	border: none;
+	margin: 5px;
+	padding: 10px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	display: block;
+}
+
+.themeButton:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+}
+
+.themeButton:focus {
+	outline: none;
+}
